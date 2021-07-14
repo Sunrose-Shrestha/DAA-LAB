@@ -41,7 +41,7 @@ public class MergeWithRandom {
 		this.temp = new int[length];
 		doMergeSort(0, length-1);
 	}
-	private void doMergeSort(int low, int high) {
+	private void doMergeSort(int low, int high) { // Divide the n size array into n sub arrays
 		if(low < high) {
 			int middle = low + (high-low)/2;
 			doMergeSort(low, middle);

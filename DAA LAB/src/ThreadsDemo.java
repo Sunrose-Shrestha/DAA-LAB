@@ -1,6 +1,7 @@
 class Compute{
   int n;
   int flag = 0, flag1 = 0;
+  
   synchronized void generate(){
     while(flag==1 || flag1==1){
       try{

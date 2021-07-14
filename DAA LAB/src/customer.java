@@ -16,9 +16,9 @@ class details{
   void display(){
     StringTokenizer st = new StringTokenizer(dateOfBirth,"/");
     System.out.println("The details of customer are: ");
-    System.out.println("<Name,DD,MM,YYYY>" + name);
+    System.out.print("<Name,DD,MM,YYYY> " + name);
     while(st.hasMoreTokens()){
-      System.out.println(","+st.nextToken());
+      System.out.print(","+st.nextToken());
     }
   }
 }
